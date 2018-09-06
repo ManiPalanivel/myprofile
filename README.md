@@ -1,2 +1,2 @@
 # myprofile
-Mani Palanivel Resume
+Mani Palanivel Portfolio
