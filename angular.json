@@ -50,8 +50,7 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
-                }
-                ,
+                },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
@@ -119,8 +118,13 @@
               "devServerTarget": "Profile:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Profile"
 }
